@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(255, 225, 243);
+}
+
+.messanger {
+    width: 800px;
+    max-width: 90%;
+    background: rgb(253, 233, 233);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6 px - 2 px rgba(0,0,0, 0.05)
+}
+
+.name-app {
+    padding: 20px;
+    background: #d9c2f8;
+    display: flex;
+    align-items: center;
+}
+
+.name-app h1 {
+    font-size: 25px;
+    color: #444;
+    margin:auto;
+}
+
+.message_place {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: whitesmoke;
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.incoming {
+    background: #95fbb7;
+    color: rgb(37, 35, 36);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.outgoing {
+    background: rgb(173, 222, 245);
+    color: rgb(37, 35, 36);
+    margin-left: auto;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 17px;
+}
