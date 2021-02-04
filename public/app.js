@@ -23,14 +23,12 @@ function sendMessage(message) {
     scrollToBottom();
 
     socket.emit('message', msg);
-
 }
 
 function addMessage(user,type)  {
     let elem = document.createElement('div');
     let className = type;
     elem.classList.add(className, 'message');
-
     let messageContent = `
     <h4>${user.user}</h4>
     <p>${user.message}</p>`;
