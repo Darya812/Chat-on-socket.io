@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <section class="messanger">
-        <div class="name-app">
-            <h1>CHAT-TALKER</h1>
-        </div>
-        <div class="message_place">  
-        </div>
-        <div>
-            <textarea placeholder="Write a message ..." id="textarea" cols="30" wrap="soft"></textarea>
-        </div>
+      <div class="name-app">
+        <h1>CHAT-TALKER</h1>
+      </div>
+      <div class="message_place"></div>
+      <div>
+        <textarea
+          placeholder="Write a message ..."
+          id="textarea"
+          cols="30"
+          wrap="soft"
+        ></textarea>
+      </div>
     </section>
-
     <script src="/socket.io/socket.io.js"></script>
     <script src="/app.js"></script>
-</body>
+  </body>
 </html>
